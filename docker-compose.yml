@@ -42,7 +42,7 @@ services:
       - eureka-server
       - mysql-client
 
-  mysql-car:
+  mysql-car:  
     image: mysql:latest
     container_name: mysql-car
     ports:
